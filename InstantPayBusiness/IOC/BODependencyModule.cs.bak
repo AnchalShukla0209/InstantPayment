@@ -1,0 +1,29 @@
+﻿//using Implementation;
+//using Interfaces;
+//using Morpho.DataAccess;
+using SIMphonyDataAccess;
+using Ninject.Modules;
+
+using SIMphonyBusiness;
+using SIMphonyBusiness.Interface;
+using SIMphonyBusiness.Implementation;
+
+namespace SIMphonyBusiness.IOC
+{
+
+    internal class BODependencyModule : NinjectModule
+    {
+
+        public override void Load()
+        {
+            Bind<IBLLTestData>().To<BLLTestData>();
+            Bind<IBLLTCRequestDetails>().To<BLLTCRequestDetails>();
+            Bind<IMailData>().To<BOMailData>();
+            Bind<IBLLBAPArchiveDetails>().To<BLLBAPArchiveDetails>();//Added by Lalit kumar on 9 june 2021
+            Bind<IBLLUserAgent>().To<BLLUserAgent>();//Added by Amit dixit on 02-Nov-2021
+            Bind<IRegionPriority>().To<BLLRegionPriority>();//Added by Amit dixit on 29-Nov-2021
+    }
+}
+}
+
+

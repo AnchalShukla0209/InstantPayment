@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "D:\\Study\\InstantPaymentAdmin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|d:\\study\\instantpaymentadmin\\instantpaybusiness\\implementation\\blltxnreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|solutionrelative:instantpaybusiness\\implementation\\blltxnreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\content\\assets\\customjs\\txnreport.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\content\\assets\\customjs\\txnreport.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|d:\\study\\instantpaymentadmin\\instantpaymentadmin\\content\\assets\\customjs\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\content\\assets\\customjs\\generic.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\views\\report\\txnreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\views\\report\\txnreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|d:\\study\\instantpaymentadmin\\instantpaymentadmin\\_adminmaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|d:\\study\\instantpaymentadmin\\instantpaybusiness\\implementation\\bllgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|solutionrelative:instantpaybusiness\\implementation\\bllgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6C38059-38B8-4B35-AEAC-E8D32BDD62E7}|InstantPayDataAccess\\InstantPayDataAccess.csproj|d:\\study\\instantpaymentadmin\\instantpaydataaccess\\model\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C38059-38B8-4B35-AEAC-E8D32BDD62E7}|InstantPayDataAccess\\InstantPayDataAccess.csproj|solutionrelative:instantpaydataaccess\\model\\generic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\_adminmaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\_adminmaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|d:\\study\\instantpaymentadmin\\instantpaymentadmin\\content\\assets\\js\\alerts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\content\\assets\\js\\alerts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|d:\\study\\instantpaymentadmin\\instantpaybusiness\\interface\\ibllgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|solutionrelative:instantpaybusiness\\interface\\ibllgeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|d:\\study\\instantpaymentadmin\\instantpaymentadmin\\content\\assets\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\content\\assets\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C6C38059-38B8-4B35-AEAC-E8D32BDD62E7}|InstantPayDataAccess\\InstantPayDataAccess.csproj|d:\\study\\instantpaymentadmin\\instantpaydataaccess\\viewmodel\\txnreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6C38059-38B8-4B35-AEAC-E8D32BDD62E7}|InstantPayDataAccess\\InstantPayDataAccess.csproj|solutionrelative:instantpaydataaccess\\viewmodel\\txnreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|d:\\study\\instantpaymentadmin\\instantpaymentadmin\\content\\assets\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\content\\assets\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\content\\assets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|solutionrelative:instantpaymentadmin\\content\\assets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaybusiness\\ioc\\bodependencymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8125956F-FC3A-4D6F-BFC3-DA08712BFBDB}|InstantPayBusiness\\InstantPayBusiness.csproj|solutionrelative:instantpaybusiness\\ioc\\bodependencymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E237D14-5921-4005-919B-7FF4E5C1157B}|InstantPaymentAdmin\\InstantPaymentAdmin.csproj|D:\\Study\\InstantPaymentAdmin\\instantpaymentadmin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,57 +71,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "alerts.js",
-              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\js\\alerts.js",
-              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Content\\assets\\js\\alerts.js",
-              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\js\\alerts.js",
-              "RelativeToolTip": "InstantPaymentAdmin\\Content\\assets\\js\\alerts.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Title": "TxnReport.js",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\CustomJS\\TxnReport.js",
+              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Content\\assets\\CustomJS\\TxnReport.js",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\CustomJS\\TxnReport.js",
+              "RelativeToolTip": "InstantPaymentAdmin\\Content\\assets\\CustomJS\\TxnReport.js",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T17:49:12.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.js",
-              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\js\\index.js",
-              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Content\\assets\\js\\index.js",
-              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\js\\index.js",
-              "RelativeToolTip": "InstantPaymentAdmin\\Content\\assets\\js\\index.js",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T17:49:01.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "custom.js",
-              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\js\\custom.js",
-              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Content\\assets\\js\\custom.js",
-              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\js\\custom.js",
-              "RelativeToolTip": "InstantPaymentAdmin\\Content\\assets\\js\\custom.js",
-              "ViewState": "AgIAADcBAAAAAAAAAAAIwEUBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-05T17:43:16.26Z",
+              "WhenOpened": "2024-12-07T17:16:41.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "styles.css",
-              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\css\\styles.css",
-              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Content\\assets\\css\\styles.css",
-              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\css\\styles.css",
-              "RelativeToolTip": "InstantPaymentAdmin\\Content\\assets\\css\\styles.css",
-              "ViewState": "AgIAACkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-05T17:22:35.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Views\\Account\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "InstantPaymentAdmin\\Views\\Account\\Dashboard.cshtml",
@@ -110,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "InstantPaymentAdmin\\Controllers\\AccountController.cs",
@@ -122,15 +108,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "_AdminMaster.cshtml",
               "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\_AdminMaster.cshtml",
               "RelativeDocumentMoniker": "InstantPaymentAdmin\\_AdminMaster.cshtml",
               "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\_AdminMaster.cshtml",
               "RelativeToolTip": "InstantPaymentAdmin\\_AdminMaster.cshtml",
-              "ViewState": "AgIAACcEAAAAAAAAAAAowDcEAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACcEAAAAAAAAAAAAADgEAACjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T16:54:11.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Generic.js",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\CustomJS\\Generic.js",
+              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Content\\assets\\CustomJS\\Generic.js",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Content\\assets\\CustomJS\\Generic.js",
+              "RelativeToolTip": "InstantPaymentAdmin\\Content\\assets\\CustomJS\\Generic.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-07T19:12:38.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BODependencyModule.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\IOC\\BODependencyModule.cs",
+              "RelativeDocumentMoniker": "InstantPayBusiness\\IOC\\BODependencyModule.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\IOC\\BODependencyModule.cs",
+              "RelativeToolTip": "InstantPayBusiness\\IOC\\BODependencyModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T17:52:46.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BllTxnreport.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\Implementation\\BllTxnreport.cs",
+              "RelativeDocumentMoniker": "InstantPayBusiness\\Implementation\\BllTxnreport.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\Implementation\\BllTxnreport.cs",
+              "RelativeToolTip": "InstantPayBusiness\\Implementation\\BllTxnreport.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:02:20.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "InstantPaymentAdmin\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T14:32:22.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TxnReport.cshtml",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Views\\Report\\TxnReport.cshtml",
+              "RelativeDocumentMoniker": "InstantPaymentAdmin\\Views\\Report\\TxnReport.cshtml",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPaymentAdmin\\Views\\Report\\TxnReport.cshtml",
+              "RelativeToolTip": "InstantPaymentAdmin\\Views\\Report\\TxnReport.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T14:33:16.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Generic.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPayDataAccess\\Model\\Generic.cs",
+              "RelativeDocumentMoniker": "InstantPayDataAccess\\Model\\Generic.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPayDataAccess\\Model\\Generic.cs",
+              "RelativeToolTip": "InstantPayDataAccess\\Model\\Generic.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:19:48.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BllGeneric.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\Implementation\\BllGeneric.cs",
+              "RelativeDocumentMoniker": "InstantPayBusiness\\Implementation\\BllGeneric.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\Implementation\\BllGeneric.cs",
+              "RelativeToolTip": "InstantPayBusiness\\Implementation\\BllGeneric.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwCsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:20:16.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TxnReportViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPayDataAccess\\ViewModel\\TxnReportViewModel.cs",
+              "RelativeDocumentMoniker": "InstantPayDataAccess\\ViewModel\\TxnReportViewModel.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPayDataAccess\\ViewModel\\TxnReportViewModel.cs",
+              "RelativeToolTip": "InstantPayDataAccess\\ViewModel\\TxnReportViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:24:01.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBllGeneric.cs",
+              "DocumentMoniker": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\Interface\\IBllGeneric.cs",
+              "RelativeDocumentMoniker": "InstantPayBusiness\\Interface\\IBllGeneric.cs",
+              "ToolTip": "D:\\Study\\InstantPaymentAdmin\\InstantPayBusiness\\Interface\\IBllGeneric.cs",
+              "RelativeToolTip": "InstantPayBusiness\\Interface\\IBllGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:12:24.777Z",
               "EditorCaption": ""
             }
           ]

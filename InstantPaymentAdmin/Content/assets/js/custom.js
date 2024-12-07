@@ -240,18 +240,7 @@
     /* header theme toggle */
 
     /* Choices JS */
-    document.addEventListener('DOMContentLoaded', function () {
-        var genericExamples = document.querySelectorAll('[data-trigger]');
-        for (let i = 0; i < genericExamples.length; ++i) {
-            var element = genericExamples[i];
-            new Choices(element, {
-                allowHTML: true,
-                searchEnabled: false,
-                placeholderValue: 'This is a placeholder set in the config',
-                searchPlaceholderValue: 'Search',
-            });
-        }
-    });
+
     /* Choices JS */
 
     /* footer year */

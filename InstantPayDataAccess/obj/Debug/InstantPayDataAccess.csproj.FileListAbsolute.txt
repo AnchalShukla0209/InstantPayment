@@ -1,0 +1,15 @@
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\InstantPayDataAccess.dll
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\InstantPayDataAccess.pdb
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Microsoft.Owin.dll
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Ninject.dll
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Owin.dll
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Microsoft.Owin.xml
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Ninject.pdb
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\bin\Debug\Ninject.xml
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\obj\Debug\InstantPayDataAccess.csproj.AssemblyReference.cache
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\obj\Debug\InstantPayDataAccess.csproj.CoreCompileInputs.cache
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\obj\Debug\InstantP.2CCB888A.Up2Date
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\obj\Debug\InstantPayDataAccess.dll
+D:\Study\InstantPaymentAdmin\InstantPayDataAccess\obj\Debug\InstantPayDataAccess.pdb
