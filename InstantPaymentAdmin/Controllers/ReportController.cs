@@ -70,6 +70,58 @@ namespace InstantPaymentAdmin.Controllers
         }
 
 
+        public JsonResult GetTransactionsReportDetails(int? TransId)
+        {
+            try
+            {
+                var bllTxn = InstantPayBusiness.IOC.BODependencyFactory.GetInstance<IBllTxnreport>();
+                var TxnRepdata = bllTxn.GetTransactionsDetails(TransId);
+                return Json(new
+                {
+                    success = true,
+                    data = TxnRepdata
+                }, JsonRequestBehavior.AllowGet);
+
+
+            }
+            catch (Exception ex)
+            {
+                return Json(new
+                {
+                    success = false,
+                    message = ex.Message
+                }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        [HttpPost]
+        public JsonResult FailedOrRefundAction(string Status, string Remarks, int TransId, int UserId, string ServiceName, decimal Amount, string AccountNo, string UserName, decimal TxnAmount, string TxnPin)
+        {
+            try
+            {
+                int ActionById = 2;//Session["SuperAdminLoginId"]
+                var bllTxn = InstantPayBusiness.IOC.BODependencyFactory.GetInstance<IBllTxnreport>();
+                var TxnRepdata = bllTxn.TransRefundOrFailed(Status,Remarks,TransId,UserId,ServiceName,Amount,AccountNo,UserName,TxnAmount,TxnPin,ActionById);
+                return Json(new
+                {
+                    success = true,
+                    data = TxnRepdata
+                }, JsonRequestBehavior.AllowGet);
+
+
+            }
+            catch (Exception ex)
+            {
+                return Json(new
+                {
+                    success = false,
+                    message = ex.Message
+                }, JsonRequestBehavior.AllowGet);
+            }
+        }
+        
+
+
 
     }
 }

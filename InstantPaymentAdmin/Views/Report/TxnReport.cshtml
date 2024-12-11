@@ -13,9 +13,16 @@
         color: white;
         padding: 5px 10px;
     }
+
     .custom-gridjs-th {
         background-color: #794abf !important;
         color: #fff !important;
+    }
+    .disablescss {
+        pointer-events: none;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+       
     }
 </style>
 <!-- Start::app-content -->
@@ -105,7 +112,7 @@
                                         <div class="">
                                             <div class="input-group">
 
-                                                <button class="btn btn-primary btn-block" id="btnSearch"  title="Search" style="border-radius:7px" type="button"><i class="fa fa-search" style="font-size:17px" aria-hidden="true"></i></button>
+                                                <button class="btn btn-primary btn-block" id="btnSearch" title="Search" style="border-radius:7px" type="button"><i class="fa fa-search" style="font-size:17px" aria-hidden="true"></i></button>
                                                 &nbsp;&nbsp;
                                                 <button class="btn btn-danger btn-block" title="Export To Excel" style="border-radius:7px" type="button"><i class="fa fa-file-excel" style="font-size:17px" aria-hidden="true"></i></button>
                                             </div>
@@ -175,8 +182,6 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody class="gridjs-tbody" id="TxnReportData">
-                                                           
-
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -185,8 +190,8 @@
 
                                                         <div class="gridjs-pages" id="paginationContainer">
                                                             @*<button tabindex="0" role="button" disabled="" title="Previous" aria-label="Previous" class="">Previous</button>
-                                                            <button tabindex="0" role="button" class="gridjs-currentPage" title="Page 1" aria-label="Page 1">1</button>
-                                                            <button tabindex="0" role="button" disabled="" title="Next" aria-label="Next" class="">Next</button>*@
+                                                                <button tabindex="0" role="button" class="gridjs-currentPage" title="Page 1" aria-label="Page 1">1</button>
+                                                                <button tabindex="0" role="button" disabled="" title="Next" aria-label="Next" class="">Next</button>*@
                                                         </div>
                                                     </div>
                                                 </div><div id="gridjs-temp" class="gridjs-temp"></div>
@@ -215,10 +220,10 @@
             </div>
             <div class="modal-body">
                 <p id="Res1" style="font-size: 12px; overflow-wrap: break-word;"></p>
-                
+
             </div>
             <div class="modal-footer">
-               
+
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
                     Close
                 </button>
@@ -226,6 +231,91 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="TxnrefundModal" tabindex="-1" aria-labelledby="TxnrefundModalLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="TxnrefundModalLabelLabel">Txn Update/ <span id="txtTxnDet"></span></h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+
+                    <div class="d-flex align-items-center">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" checked name="refundfailed" id="txnFailed" value="FAILED">
+                            <label class="form-check-label" for="yesOption">FAILED</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="refundfailed" id="txnRefund" value="REFUND">
+                            <label class="form-check-label" for="noOption">REFUND</label>
+                        </div>
+                    </div>
+                </div>
+                <label>Refund Amount</label>
+                <input type="text" id="txtRefundAmount" class="form-control" />
+                <label>Current Status</label>
+                <input type="text" id="txtCurrentStatus" class="form-control disablescss" />
+                <label>Refund Pin</label>
+                <input type="text" id="txtRefundPin" autocomplete="off" class="form-control" />
+                <input type="hidden" id="TxnId" class="form-control" />
+                <input type="hidden" id="ServiceName" class="form-control" />
+                <input type="hidden" id="AccountNo" class="form-control" />
+                <input type="hidden" id="UserId" class="form-control" />
+                <input type="hidden" id="UserName" class="form-control" />
+                <label>Remarks</label>
+                <textarea id="txtRemarks"  class="form-control"  cols="4" rows="4"></textarea>
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                    CLOSE
+                </button>
+                <button type="button" class="btn btn-success" onclick="FailedOrRefundAction()" >
+                    SUBMIT
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="TxnSuceessModel" tabindex="-1" aria-labelledby="TxnSuceessModelLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="TxnSuceessModelLabel">Txn Update/ <span id="txtTxnSuccessDet"></span></h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+          
+                <label>Current Status</label>
+                <input type="text" id="txtSuccessCurrentStatus" class="form-control disablescss" />
+               
+                <input type="hidden" id="SucessTxnId" class="form-control" />
+                <input type="hidden" id="SucessServiceName" class="form-control" />
+                <input type="hidden" id="SucessAccountNo" class="form-control" />
+                <input type="hidden" id="SucessUserId" class="form-control" />
+                <input type="hidden" id="SucessUserName" class="form-control" />
+                <label>Remarks</label>
+                <textarea id="SucesstxtRemarks" class="form-control" cols="4" rows="4"></textarea>
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                    CLOSE
+                </button>
+                <button type="button" class="btn btn-success" onclick="SuccessAction()">
+                    SUBMIT
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="~/Content/assets/CustomJS/Generic.js"></script>
