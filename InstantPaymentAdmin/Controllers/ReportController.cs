@@ -24,6 +24,12 @@ namespace InstantPaymentAdmin.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult WalletTopUpReport()
+        {
+            return View();
+        }
+
         public JsonResult GetUsers()
         {
             try
@@ -119,8 +125,31 @@ namespace InstantPaymentAdmin.Controllers
                 }, JsonRequestBehavior.AllowGet);
             }
         }
-        
 
+        public JsonResult GetWalletTopupReport(int pageIndex, int pageSize, string dateFrom = "", string dateTo = "")
+        {
+            try
+            {
+                var bllTxn = InstantPayBusiness.IOC.BODependencyFactory.GetInstance<IBllTxnreport>();
+                var TxnRepdata = bllTxn.GetWalletTopupReport(pageIndex, pageSize, dateFrom, dateTo);
+                return Json(new
+                {
+                    success = true,
+                    data = TxnRepdata
+                }, JsonRequestBehavior.AllowGet);
+
+
+            }
+            catch (Exception ex)
+            {
+                return Json(new
+
+                {
+                    success = false,
+                    message = ex.Message
+                }, JsonRequestBehavior.AllowGet);
+            }
+        }
 
 
     }

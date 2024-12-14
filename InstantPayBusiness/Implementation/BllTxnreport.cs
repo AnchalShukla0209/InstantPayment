@@ -86,8 +86,6 @@ namespace InstantPayBusiness.Implementation
             }
         }
 
-
-
         public List<TxnDetails> GetTransactionsDetails(int? TxnId)
         {
             try
@@ -165,6 +163,55 @@ namespace InstantPayBusiness.Implementation
                                 flag = Convert.ToBoolean(row["flag"].ToString()),
                                 
 
+                            });
+                        }
+
+                        return transactions;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<WalletTopupReport> GetWalletTopupReport(int pageIndex, int pageSize,  string dateFrom = "", string dateTo = "")
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("USP_Wallet_Topup_Report", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@PageIndex", pageIndex);
+                        cmd.Parameters.AddWithValue("@PageSize", pageSize);
+                        cmd.Parameters.AddWithValue("@DateFrom", dateFrom);
+                        cmd.Parameters.AddWithValue("@DateTo", dateTo);
+
+                        conn.Open();
+                        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        adapter.Fill(dt);
+                        // Convert DataTable to List
+                        var transactions = new List<WalletTopupReport>();
+                        foreach (DataRow row in dt.Rows)
+                        {
+                            transactions.Add(new WalletTopupReport
+                            {
+                                Id = Convert.ToInt32(row["Id"].ToString()),     
+                                UserName = row["UserName"].ToString(),
+                                OpeningBal = Convert.ToDecimal(row["OpeningBal"]),
+                                Amount = Convert.ToDecimal(row["Amount"]),
+                                Closing = Convert.ToDecimal(row["Closing"]),
+                                txnType = row["txnType"].ToString(),
+                                CrdrType = row["CrdrType"].ToString(),
+                                Remarks = row["Remarks"].ToString(),
+                                txndate = row["txndate"] != DBNull.Value ? Convert.ToDateTime(row["txndate"]) : (DateTime?)null,
+                                TotalTransactions = Convert.ToInt32(row["TotalTransactions"].ToString()),
+                                TotalAmount = Convert.ToDecimal(row["TotalAmount"].ToString()),
+                               
                             });
                         }
 

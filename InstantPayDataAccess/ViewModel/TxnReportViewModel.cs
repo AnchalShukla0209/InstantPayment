@@ -55,4 +55,20 @@ namespace InstantPayDataAccess.ViewModel
 
     }
 
+    public class WalletTopupReport
+    {
+        [Key]
+        public int Id { get; set; }
+        public string UserName { get; set; }
+        public decimal? OpeningBal { get; set; }
+        public decimal? Amount { get; set; }
+        public decimal? Closing { get; set; }
+        public string txnType { get; set; }
+        public string CrdrType { get; set; }
+        public string Remarks { get; set; }
+        public DateTime? txndate { get; set; }
+        public int? TotalTransactions { get; set; }
+        public decimal? TotalAmount { get; set; }
+    }
+
 }

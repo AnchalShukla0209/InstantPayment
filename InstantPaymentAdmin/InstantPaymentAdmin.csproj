@@ -156,6 +156,7 @@
     <Content Include="Content\assets\css\styles.css" />
     <Content Include="Content\assets\css\styles.min.css" />
     <Content Include="Content\assets\CustomJS\Generic.js" />
+    <Content Include="Content\assets\CustomJS\WalletTopup.js" />
     <Content Include="Content\assets\CustomJS\TxnReport.js" />
     <Content Include="Content\assets\icon-fonts\boxicons\css\animations.css" />
     <Content Include="Content\assets\icon-fonts\boxicons\css\boxicons.css" />
@@ -12389,6 +12390,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Views\Report\TxnReport.cshtml" />
+    <Content Include="Views\Report\WalletTopUpReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Content\assets\icon-fonts\tabler-icons\icons-react\index.d.ts" />

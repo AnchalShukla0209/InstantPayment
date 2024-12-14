@@ -92,8 +92,8 @@ function renderTable(data) {
         let successIcon = 'fa-check-circle';
         let failedIcon = 'fa-times-circle';
         let apiResIcon = transaction.APIRes ? 'fa-info-circle' : '';
-        var timeStampDate = convertJsonDate(TimeStamp);
-        var updatedTimeDate = convertJsonDate(UpdatedTime);
+        var timeStampDate = convertJsonDate(transaction.TimeStamp);
+        var updatedTimeDate = convertJsonDate(transaction.UpdatedTime);
         let sucessAction = `<td class="gridjs-td">
     <i class="fa ${successIcon}" onclick="SucessOperation(${transaction.TXN_ID})" 
        style="color:green;font-size:18px;" 
@@ -111,7 +111,7 @@ function renderTable(data) {
 </td>`;
 
         let sucessdata = parseInt(transaction.flagforTrans) > 0 && transaction.Status.trim().toUpperCase() != "SUCCESS" ? sucessAction : '<td><span class="badge bg-primary-gradient">Success</span></td>';
-        let Rejectdata = parseInt(transaction.flagforTrans) > 0 ? Rejectaction : '';
+        let Rejectdata = parseInt(transaction.flagforTrans) > 0 ? Rejectaction : '<td></td>';
         let row = `<tr>
                 <td class="gridjs-td">${transaction.TXN_ID}</td>
                 <td class="gridjs-td">${transaction.BankRefNo}</td>
@@ -126,8 +126,8 @@ function renderTable(data) {
                 <td class="gridjs-td">${transaction.ComingFrom}</td>
                 <td class="gridjs-td">${transaction.MasterDistributor}</td>
                 <td class="gridjs-td">${transaction.Distributor}</td>
-                <td class="gridjs-td">${timeStampDate ? timeStampDate.toLocaleString() : 'Invalid date'}</td>
-                <td class="gridjs-td">${updatedTimeDate ? updatedTimeDate.toLocaleString() : 'Invalid date'}</td>
+                <td class="gridjs-td">${timeStampDate ? timeStampDate.toLocaleString() : ''}</td>
+                <td class="gridjs-td">${updatedTimeDate ? updatedTimeDate.toLocaleString() : ''}</td>
                  ${sucessdata}
                  ${Rejectdata}
             <td class="gridjs-td">
@@ -192,8 +192,13 @@ window.changePage = function (newPageIndex) {
 };
 
 function convertJsonDate(jsonDate) {
-    var timestamp = jsonDate.match(/\/Date\((\d+)\)\//); // Match the number inside /Date(...)
-    return timestamp ? new Date(parseInt(timestamp[1])) : null; // Convert to Date object
+    if (jsonDate != null) {
+        var timestamp = jsonDate.match(/\/Date\((\d+)\)\//); // Match the number inside /Date(...)
+        return timestamp ? new Date(parseInt(timestamp[1])) : null; // Convert to Date object
+    }
+    else {
+        return "";
+    }
 }
 
 function SucessOperation(TXN_ID) {

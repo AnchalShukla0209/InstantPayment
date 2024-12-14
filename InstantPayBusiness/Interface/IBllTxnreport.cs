@@ -13,5 +13,6 @@ namespace InstantPayBusiness.Interface
         List<TxnDetails> GetTransactionsDetails(int? TxnId);
 
         List<TxnRes> TransRefundOrFailed(string Status, string Remarks, int TransId, int UserId, string ServiceName, decimal Amount, string AccountNo, string UserName, decimal TxnAmount, string TxnPin, int ActionById);
+        List<WalletTopupReport> GetWalletTopupReport(int pageIndex, int pageSize, string dateFrom = "", string dateTo = "");
     }
 }
